@@ -1,0 +1,4 @@
+What is machine learning?
+
+- Machine learning describes a machine's (computer program's) ability to learn and improve from an experience.
+- If a program
