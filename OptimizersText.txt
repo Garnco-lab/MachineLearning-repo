@@ -1,0 +1,36 @@
+What are optimizers?
+
+- Optimizers are functions that adjust values within a network to decrease loss
+- This happens during training
+- Once data points run through the graph, a loss is generated as the difference between actual and expected answers
+- The optimizer's job is to decrease loss by adjusting weights through a process called backpropagation
+- After adjusting weights, the loss is recalculated during the next pass
+- If loss decreases, the process continues, otherwise different weights are adjusted and the process continues
+
+
+Gradient descent:
+- BGD, SGD, MbGD
+
+BGD: batch gradient descent:
+- calculates the loss of the entire training data set with each update
+- kind of slow as it has to calculate total loss each time
+- only use where there is not much complex data
+
+SGD: stochastic gradient descent
+- similar to batch gradient descent but looks at examples one at a time rather than as a whole
+- results in high fluctuation and often overshoots but can result in lowering loss more quickly
+- flexible and widely used among many different models
+- similar to BGD with low learning rate
+
+MbGD: mini-batch gradient descent
+- combines BGD and SGD by updating after each mini batch of size n
+- can better take advantage of complex optimization algorithms
+- minimizes fluctuation without unnecessary computation so convergence optimized
+
+
+- Momentum algorithms
+
+- Some optimizers take advantage of momentum
+- This allows for faster or slower weight adjustment depending on how fast loss is decreasing
+- There are many different optimizers algorithms employed throughout various models
+- RMSprop, Adagrad, Adadelta, Adam, Adamax, Nadam
