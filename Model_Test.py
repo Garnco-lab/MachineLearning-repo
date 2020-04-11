@@ -10,7 +10,9 @@ labels = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse
 x_test = x_test.astype('float32') / 255.0
 y_test = utils.to_categorical(y_test)
 
-model = load_model(filepath='Image_Classifier.h5')
+model = load_model("Image_Classifier.h5")
+
+# evaluation phase
 
 # results = model.evaluate(x=x_test, y=y_test)
 # print("Test loss:", results[0])
