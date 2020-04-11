@@ -2,7 +2,9 @@
   <dictionary name="Steven">
     <words>
       <w>argmax</w>
+      <w>crossentropy</w>
       <w>imshow</w>
+      <w>maxnorm</w>
       <w>relu</w>
       <w>softmax</w>
     </words>
