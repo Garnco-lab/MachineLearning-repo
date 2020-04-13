@@ -13,6 +13,7 @@
       <w>relu</w>
       <w>softmax</w>
       <w>sprop</w>
+      <w>supernum</w>
       <w>tensorflow</w>
     </words>
   </dictionary>
